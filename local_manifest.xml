@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="apon"
-		fetch="https://github.com/Apon77" />
-	<remote  name="zeelog"
-         	fetch="https://github.com/zeelog" />
-	<remote  name="dicky"
-		fetch="https://github.com/Nicklas373" />
- 
- 	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="aex"/>
-	<project path="kernel/xiaomi/mido" name="aexk" remote="apon" revision="aex" />
-	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
+    <remote  name="zubair"
+        fetch="https://github.com/zubairk22oct" />
+    <remote  name="redmi-mt6768"
+        fetch="https://github.com/redmi-mt6768" />
+    <remote  name="sarveshrulz"
+        fetch="https://github.com/sarveshrulz" />
+    <remote  name="kdrag0n"
+        fetch="https://github.com/kdrag0n" />
+             
+    <project path="device/xiaomi/shiva" name="Device_xiaomi_shiva" remote="zubair" revision="ppui"/>
+    <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="redmi-mt6768" revision="eleven" />
+    <project path="vendor/xiaomi/shiva" name="Vendor_xiaomi_shiva" remote="zubair" revision="Eleven"/>
+    <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="sarveshrulz" revision="v185" />
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
+    
